@@ -1,0 +1,36 @@
+.skills {
+    padding-bottom: 120px;
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        border: 2px solid black;
+        border-radius: 5px;
+        transition: 0.7s all;
+        img {
+            height: 70px;
+        }
+        &:hover {
+            background-color: #ffa50178;
+            .skills__divider {
+                background-color: black;
+            }
+        }
+    }
+    &__block {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(5, 180px);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    &__divider {
+        width: 60px;
+        height: 2px;
+        margin: 10px 0;
+        background-color: $main-color;
+        transition: 0.7s all;
+    }
+}

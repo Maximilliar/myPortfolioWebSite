@@ -1,0 +1,69 @@
+.project {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 200px auto;
+        column-gap: 30px;
+        padding: 10px 50px;
+        background: linear-gradient(to left, #fff5005e, #ffa50103);
+        border-radius: 25px;
+        margin-bottom: 40px;
+        img {
+            display: block;
+            width: 200px;
+            height: 200px;
+            grid-column: 1/2;
+            border-radius: 10px;
+        }
+    }
+    &__text {
+        display: grid;
+        row-gap: 10px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 30px;
+        color: #000000;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__btn {
+        display: flex;
+        width: 135px;
+        height: 45px;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        text-decoration: none;
+        background-color: $main-color;
+        border-radius: 5px;
+        margin-right: 20px;
+        &:hover {
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    &__btns {
+        display: flex;
+    }
+    &__github {
+        background-color: #000;
+        color: #fff;
+        &:hover {
+            color: #FFf;
+            text-decoration: none;
+        }
+    }
+    &__divider {
+        width: 30%;
+        height: 2px;
+        background-color: #ffa501;
+        margin: 25px auto 25px auto;
+    }
+}

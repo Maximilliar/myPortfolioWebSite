@@ -1,0 +1,18 @@
+.photo {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slick-prev:before, .slick-next:before {
+    color: $main-color;
+    opacity: 1;
+    font-size: 50px;
+}
+.slick-prev {
+    left: -50px;
+}
+.slick-next {
+    right: -50px;
+}

@@ -1,0 +1,13 @@
+@mixin orange_circle {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        top: -25%;
+        left: -1%;
+        background-color: $main-color;
+        border-radius: 100%;
+        z-index: -1;
+    }
+}

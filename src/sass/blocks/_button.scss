@@ -1,0 +1,15 @@
+.btn {
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    border-bottom: 2px solid black;
+}
+
+.green {
+    background: rgb(10, 192, 10);
+}
+.green:hover{
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    transition: 0.3s linear;
+}
